@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tv Show Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Tv Show Search.css">
+
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light">TV Show Search</a>
+            <form class="d-flex" role="search" id="tvShows">
+                <input type="text" name="query" placeholder="Search Shows" class="form-control me-2" type="search"
+                    aria-label="Search">
+                <!-- <input type="text" name="tvShows" placeholder="Search Shows"> -->
+                <button class="btn btn-outline-success btn-primary text-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- <div class="container"> -->
+     <div class="container-fluid mt-2">
+        <p id="loading">search</p>
+    </div>
+     <div class="container-fluid mt-2">
+        <p id="para"></p>
+    </div>
+    <!-- </div> -->
+
+    <!-- <h1>Tv Show Search</h1>
+    <form id="tvShows">
+        <input type="text" name="tvShows" placeholder="Search Shows">
+        <button>Search</button>
+    </form>
+    <p id="para"></p> -->
+    <script src="Tv Show Search.js"></script>
+</body>
+
+</html>
